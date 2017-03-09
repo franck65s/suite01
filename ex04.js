@@ -13,12 +13,15 @@
     et nous attendons comme résultat 1;
 */
 function isEven(number){
-if (number=6){
+if (number % 2 == 0){
 return 1;
+}
+else{
+    return 0;
 }
 }
 console.log(isEven(6));
-
+console.log(isEven(5));
 
 /*      Test 2
     Appel à la fonction "isEven",
@@ -29,9 +32,3 @@ console.log(isEven(6));
 isEven(5);
 
 //  écr ire votre code sous ce commentaire
-function isEven(number){
-    if(number==5){
-        return 0;
-    }
-}
-console.log(isEven(5));
