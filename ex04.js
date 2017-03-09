@@ -12,8 +12,13 @@
     prenant en paramètre le nombre 6,
     et nous attendons comme résultat 1;
 */
+function isEven(number){
+if (number=6){
+return 1;
+}
+}
+console.log(isEven(6));
 
-isEven(6);
 
 /*      Test 2
     Appel à la fonction "isEven",
@@ -23,4 +28,10 @@ isEven(6);
 
 isEven(5);
 
-//  écrire votre code sous ce commentaire
+//  écr ire votre code sous ce commentaire
+function isEven(number){
+    if(number==5){
+        return 0;
+    }
+}
+console.log(isEven(5));

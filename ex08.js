@@ -18,6 +18,17 @@
     prenant en paramètre le tableau [4, 5, 6],
     et nous attendons comme résultat 0;
 */
+function isEven(number){
+if (number=6){
+return 1;
+}
+}
+console.log(isEven(6));
+
+function isAllEven(){
+
+}
+
 
 isAllEven([4, 5, 6]);
 

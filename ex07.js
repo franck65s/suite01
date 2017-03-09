@@ -10,8 +10,15 @@
     prenant en paramètre le tableau [4, 5, 6],
     et nous attendons comme résultat 15;
 */
-
-boostedAddition([4, 5, 6]);
+function boostedAddition(val){
+ var somme =0;
+    for (let i=0; i < val.length; i++){
+    
+    somme = somme+val[i];
+}
+return somme  
+}
+console.log(boostedAddition([4, 6, 6]));
 
 /*      Test 1
     Appel à la fonction "boostedAddition",

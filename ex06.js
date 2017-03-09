@@ -15,8 +15,24 @@
     prenant en paramètre le nombre -5,
     et nous attendons comme résultat "impossible... ou encore jamais vu";
 */
+function getHumanTypeByAge(val){
+if(val >= 124 || val < 1){
+    return "impossible  ....ou encore jamais vu";
+}
+else if(val >= 12 && val < 18){
+    return "ado";
+}
+else if(val >= 18 && val < 124){
+    return "adulte";
+}
+else if(val <12){
+return "enfant";
+}
+}
 
-getHumanTypeByAge(-5);
+
+
+console.log(getHumanTypeByAge(-5));
 
 /*      Test 2
     Appel à la fonction "getHumanTypeByAge",
@@ -24,7 +40,7 @@ getHumanTypeByAge(-5);
     et nous attendons comme résultat "enfant";
 */
 
-getHumanTypeByAge(6);
+console.log(getHumanTypeByAge(6));
 
 /*      Test 3
     Appel à la fonction "getHumanTypeByAge",
@@ -32,7 +48,7 @@ getHumanTypeByAge(6);
     et nous attendons comme résultat "ado";
 */
 
-getHumanTypeByAge(17);
+console.log(getHumanTypeByAge(17));
 
 /*      Test 4
     Appel à la fonction "getHumanTypeByAge",
@@ -40,7 +56,7 @@ getHumanTypeByAge(17);
     et nous attendons comme résultat "adulte";
 */
 
-getHumanTypeByAge(33);
+console.log(getHumanTypeByAge(33));
 
 /*      Test 5
     Appel à la fonction "getHumanTypeByAge",
@@ -48,6 +64,6 @@ getHumanTypeByAge(33);
     et nous attendons comme résultat "impossible... ou encore jamais vu";
 */
 
-getHumanTypeByAge(140);
+console.log(getHumanTypeByAge(140));
 
 //  écrire votre code sous ce commentaire

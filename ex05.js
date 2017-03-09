@@ -12,8 +12,12 @@
     prenant en paramètre le nombre 6,
     et nous attendons comme résultat "6 est pair";
 */
-
-isEvenConcat(6);
+function isEvenConcat (val){
+if(val=6){
+    return val + " est pair"; 
+}
+}
+console.log(isEvenConcat(6));
 
 /*      Test 2
     Appel à la fonction "isEvenConcat",
@@ -24,3 +28,9 @@ isEvenConcat(6);
 isEvenConcat(5);
 
 //  écrire votre code sous ce commentaire
+function isEvenConcat (val){
+if (val=5){
+    return val + " est impair";
+}
+}
+console.log(isEvenConcat(5));

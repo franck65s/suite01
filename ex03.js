@@ -16,8 +16,11 @@
     prenant en paramètre les nombre 6 et 9,
     et nous attendons comme résultat 15;
 */
-
-addition(6, 9);
+function addition (val1,val2){
+    var somme = val1 + val2;
+return  somme;
+}
+console.log(addition(6, 9));
 
 /*      Test 2
     Appel à la fonction "addition",
@@ -29,3 +32,4 @@ addition(98766, 345678);
 
 //  écrire votre code sous ce commentaire
 
+console.log(addition(98766,345678));
